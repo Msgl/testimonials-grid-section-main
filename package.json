@@ -4,9 +4,11 @@
   "description": "FrontendMentor.io challenge",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"    
+    "lite": "lite-server",
+    "scss": "node-sass --watch scss -o css",
+    "watch:all": "parallelshell \"npm run scss\" \"npm run lite\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,8 @@
   },
   "homepage": "https://github.com/Msgl/testimonials-grid-section-main#readme",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^5.0.0",
+    "parallelshell": "^3.0.1"
   }
 }
