@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-content: center;
   grid-template-columns: repeat(4, 270px);
-  grid-template-rows: repeat(2, 320px);
+  grid-template-rows: repeat(2, 350px);
   gap: 20px 20px;
   grid-template-areas: "box-1 box-1 box-2 box-3" "box-4 box-5 box-5 box-3"; }
 
@@ -32,7 +32,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
@@ -45,7 +45,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
@@ -58,7 +58,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
@@ -71,7 +71,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
@@ -84,7 +84,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
@@ -97,7 +97,7 @@ body {
   padding-bottom: 20px;
   display: grid;
   grid-template-columns: 60px auto;
-  grid-template-rows: 60px 230px;
+  grid-template-rows: 60px auto;
   gap: 15px 15px;
   grid-template-areas: "img person" "text text"; }
 
