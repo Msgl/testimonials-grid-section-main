@@ -22,7 +22,7 @@ body {
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(4, 270px) ;
+    grid-template-columns: repeat(4, 300px) ;
     grid-template-rows: repeat(2, 350px);
 
     gap: 20px 20px;
@@ -41,7 +41,7 @@ body {
         padding-bottom: 20px;
         display: grid;
         grid-template-columns: 60px auto;
-        grid-template-rows: 60px auto;
+        grid-template-rows: 60px fit-content;
         gap: 15px 15px;
         grid-template-areas:
         "img person"
